@@ -6,7 +6,7 @@ local Window = Rayfield:CreateWindow({
     Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
     LoadingTitle = "ho-ld on...",
     LoadingSubtitle = "By daddy",
-    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+    Theme = "Light", -- Check https://docs.sirius.menu/rayfield/configuration/themes
  
     DisableRayfieldPrompts = false,
     DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
@@ -58,7 +58,7 @@ local VirtualInputManager = game:GetService("VirtualInputManager")
 local player = Players.LocalPlayer
 
 local dupeAmount = 10
-local StatusLabel = MainTab:CreateLabel("Status: Waiting for action...")
+local StatusLabel =  MaintestTab:CreateLabel("Status: Waiting for action...")
 
 -- Notification function with error handling
 local function notify(message, time, type)
@@ -76,7 +76,7 @@ local function notify(message, time, type)
 end
 
 -- Textbox for Duplication Amount
-MainTab:CreateInput({
+ MaintestTab:CreateInput({
     Name = "Enter Card Dupe Amount",
     PlaceholderText = "10",
     RemoveTextAfterFocusLost = false,
@@ -193,7 +193,7 @@ local function duplicateCardsAndLaptops()
 end
 
 -- Button for Duplication
-MainTab:CreateButton({
+ MaintestTab:CreateButton({
     Name = "Start Card Duplication",
     Callback = function()
         duplicateCardsAndLaptops()
