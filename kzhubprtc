@@ -35,7 +35,7 @@ local Window = Rayfield:CreateWindow({
     }
  })
 
- local MaintestTab = Window:CreateTab("Main🏠", 4483362458) -- Title, Image
+ local MaintestTab = Window:CreateTab("🏠Main🏠", 4483362458) -- Title, Image
  local Section = MaintestTab:CreateSection("Main Practice")
 
  local Slider = MaintestTab:CreateSlider({
@@ -200,4 +200,5 @@ end
     
         end
 })
- 
+
+local Section = MaintestTab:CreateSection("🔫Gun dupe🔫")
