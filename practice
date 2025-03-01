@@ -1,9 +1,10 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
+
 -- Whitelist of usernames 
 local whitelist = {
     "Kaisfrms2hub",  
-    "Player"
+    "Player",
     "Player", 
     "Player",
     "Player",
@@ -23,10 +24,10 @@ local function isWhitelisted(player)
 end
 
 local Window = Rayfield:CreateWindow({
-   Name = "DKHUB | PREMIUM",
+   Name = "KzHub",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Loading...",
-   LoadingSubtitle = "by Theyfwdk0",
+   LoadingSubtitle = "by Treys_Son",
    Theme = "", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
