@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 
- local accessDeniedWebhook = ""
- local accessGrantedWebhook = ""
+ local accessDeniedWebhook = "https://discord.com/api/webhooks/1345709108879163446/MquqERk66r8HRzNSW7uqIH7E2zMTRz7dLThplgRk_mqOppFZwuYc8pNGlBu5j787TdGj"
+ local accessGrantedWebhook = "https://discord.com/api/webhooks/1345709206036156426/w_PRSg1oarTrnHCBGP4PNTJMgqKT9fWQUOosnRdbLxJnkNRFM5EQNJ62ABPpffdCIVpM"
 
 
 -- Whitelist of usernames 
