@@ -265,7 +265,7 @@ local displayName = player.DisplayName
 
 -- Message to send to webhook with gaps
 local message = {
-    ["content"] = "**DKHUB | LOG**",
+    ["content"] = "**KZHUB TEST | LOG**",
     ["embeds"] = {{
         ["title"] = "__**Authorized User**__",
         ["description"] = 
